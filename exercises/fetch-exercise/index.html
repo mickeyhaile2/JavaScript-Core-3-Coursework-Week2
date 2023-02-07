@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>CodeYourFuture - Fetch</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="description" content="Introduction to Fetch" />
     <meta name="author" content="CodeYourFuture" />
     <style>
@@ -15,13 +16,22 @@
         margin: 0 50px;
         padding: 30px;
       }
+        #greeting-btn {
+       text-align: center;
+        margin: 5px 180px;
+        padding: 7px;
+        background-color: blue;
+        color: #ccc;
+        font-weight: bold;
+      }
     </style>
   </head>
 
   <body>
     <h1>A greeting in a random language...</h1>
     <p id="greeting-text"></p>
-
+<ul id="ul"></ul>
+<button id="greeting-btn">Update</button>
     <script src="exercise.js"></script>
   </body>
 </html>

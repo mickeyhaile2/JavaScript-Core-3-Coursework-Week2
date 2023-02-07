@@ -1,0 +1,30 @@
+#btn {
+    font-size: 3rem;
+    padding: 1em;
+    border: 2px solid purple;
+    background-color: rgb(179, 127, 165);
+    display: block;
+    position: fixed;
+    top: 2em;
+    right: 50%;
+    margin-right: -180px
+}
+#greeting-text {
+    font-size: 20px;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    width: 20%;
+    text-align: center;
+    margin: 0 50px;
+    padding: 30px;
+}
+img {
+    width: 30%;
+    height: 400px;
+    border-radius: 20px;
+}
+#btn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(242, 242, 246, 0.2),
+        inset 4px 4px 6px 0 rgba(246, 244, 244, 0.4);
+}
